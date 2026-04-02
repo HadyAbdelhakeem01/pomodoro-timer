@@ -1,0 +1,10 @@
+{
+  "name": "watch",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix stop run dev",
+    "build": "npm --prefix stop run build",
+    "lint": "npm --prefix stop run lint",
+    "preview": "npm --prefix stop run preview"
+  }
+}
